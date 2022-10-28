@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-size: 10px;
+      }
+
+      body {
+        font-family: sans-serif;
+        font-size: 1.6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-top: 30vh;
+        background-color: rgb(24, 15, 73);
+      }
+
+      .wrapper {
+        padding: 3rem;
+        border-radius: 0.8rem;
+      }
+
+      svg {
+        width: 15%;
+        height: 15%;
+        color: white;
+      }
+
+      .green {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        background-color: green;
+        padding: 3.5rem;
+      }
+
+      .white {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        background-color: white;
+        color: black;
+        padding: 3.5rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+        /* max-width:80%; */
+        line-height: 2rem;
+      }
+
+      span {
+        display: block;
+        text-align: center;
+        margin-bottom: 1.5rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+        padding: 1rem 3rem;
+        background-color: green;
+        border-radius: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="green">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="ionicon"
+          viewBox="0 0 512 512"
+        >
+          <title>Checkmark Circle</title>
+          <path
+            d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z"
+            fill="none"
+            stroke="currentColor"
+            stroke-miterlimit="10"
+            stroke-width="32"
+          />
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="32"
+            d="M352 176L217.6 336 160 272"
+          />
+        </svg>
+        <h3>Success!</h3>
+      </div>
+      <div class="white">
+        <p>
+          Congratualtions, your account has been created
+          <span>successfully.</span>
+        </p>
+        <a href="./login.html" class="close_cta">Continue</a>
+      </div>
+    </div>
+  </body>
+</html>

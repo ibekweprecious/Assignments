@@ -1,0 +1,181 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+html{
+  font-size:10px;
+}
+
+body{
+  font-size:1.6rem;
+  display:flex;
+  justify-content:center;
+  background-color: #e6e8ec88;
+  padding:3rem 0;
+}
+
+
+
+/* sign-up page */
+.sign_up_container {
+  max-width:100%;
+  text-align: center;
+  background-color: white;
+  margin:0 45rem;
+  padding:2rem 3rem;
+  border-radius:1rem;
+}
+
+.sign_up_container h3 {
+  text-align: center;
+}
+
+.authorize {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+/* ctas */
+
+.ctas {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.ctas button {
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+.google {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.google svg {
+  width: 20px;
+  fill: rgb(255, 77, 77);
+}
+
+.google span {
+  font-weight: 600;
+}
+
+.facebook {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.facebook svg {
+  width: 20px;
+  fill: blue;
+}
+
+.facebook span {
+  font-weight: 600;
+}
+
+/* or  */
+.or {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin: 3vh 0;
+}
+
+.middle {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.line {
+  display: inline-block;
+  border: 1px solid rgb(219, 219, 219);
+  flex-grow: 1;
+}
+
+/* inputs */
+
+.inputs input {
+  display: inline-block;
+  padding: 1.5rem 1rem;
+  border-radius: 6px;
+  background-color: #efefef;
+  border: none;
+  margin-bottom: 15px;
+  outline: none;
+  width: 100%;
+}
+
+.sign_up_container p {
+  font-size: 1.4rem;
+  line-height: 15px;
+  color: grey;
+  text-align: center;
+  margin-bottom: 4vh;
+}
+
+/******
+ external 
+******/
+fieldset{
+  border:none;
+  display:flex;
+  flex-direction:column;
+  gap:1rem;
+}
+.dob{
+  font-size:1.3rem;
+ text-align:left;
+}
+
+#color{
+  display: inline-block;
+  padding:0;
+  border-radius: 6px;
+  background-color:none;
+  border: none;
+  margin-bottom: 15px;
+  outline: none;
+  width: 50%;
+}
+/* button cta */
+
+#sign_up {
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  padding: 1.5rem 25px;
+  width: 100%;
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+}
+
+.login {
+  display: block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid blue;
+  padding: 1rem 10rem;
+  max-width: 100%;
+  width:100%;
+  color: blue;
+  background-color: white;
+  margin:1rem 0;
+}
