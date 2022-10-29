@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <!--   <link href="style.css" rel="stylesheet" type="text/css" /> -->
+  <style>
+    :root {
+      --orange: #eb5020;
+      --yellow: #ffa401;
+      --green: #05aa42;
+      --cyan: #01aefd;
+    }
+
+    body {
+      background-color: #1a1c28;
+      display: flex;
+      place-items: center;
+      height: 100vh;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #202124;
+      color: #f0f0f0;
+      box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+      display: flex;
+      justify-content: flex-end;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .topnav a {
+      color: #f2f2f2;
+      padding: 10px 30px;
+      text-decoration: none;
+      font-size: 1.5rem;
+      height: 100%;
+      transition: transform 0.3s ease-out;
+    }
+
+    .topnav a:hover {
+      color: wheat;
+      transform: translateY(-3px);
+    }
+
+    .topnav a:active {
+      color: wheat;
+      transform: translateY(5px);
+    }
+
+    @media (max-width: 800px) {
+      .topnav {
+        justify-content: center;
+      }
+    }
+
+    main {
+      display: grid;
+      grid-template-areas:
+        "orange1 orange1 orange1 yellow1 yellow1"
+        "orange1 orange1 orange1 yellow1 yellow1"
+        "green1 green1 cyan1 cyan1 cyan1"
+        "green1 green1 cyan2 cyan2 cyan2"
+      ;
+      gap: 10px;
+      width: 450px;
+      height: 350px;
+      margin: auto;
+    }
+
+    .orange {
+      background-color: var(--orange);
+      grid-area: orange1;
+    }
+
+    .yellow {
+      background-color: var(--yellow);
+      grid-area: yellow1;
+    }
+
+    .green {
+      background-color: var(--green);
+      grid-area: green1;
+    }
+
+    .cyan1 {
+      background-color: var(--cyan);
+      grid-area: cyan1;
+    }
+
+    .cyan2 {
+      background-color: var(--cyan);
+      grid-area: cyan2;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+    <div class="orange"></div>
+    <div class="yellow"></div>
+    <div class="green"></div>
+    <div class="cyan1"></div>
+    <div class="cyan2"></div>
+  </main>
+
+
+            <span><a href="grid.html">click</a> to view the grid section </span>
+  
+</body>
+
+</html>
