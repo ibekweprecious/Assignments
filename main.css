@@ -1,0 +1,230 @@
+*{
+	scroll-behavior: smooth;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+:root {
+	--gray-50: rgba(249, 250, 251, 1);
+	--gray-100: rgba(243, 244, 246, 1);
+	--gray-200: rgba(229, 231, 235, 1);
+	--gray-300: rgba(209, 213, 219, 1);
+	--gray-400: rgba(156, 163, 175, 1);
+	--gray-500: rgba(107, 114, 128, 1);
+	--gray-600: rgba(75, 85, 99, 1);
+	--gray-700: rgba(55, 65, 81, 1);
+	--gray-800: rgba(31, 41, 55, 1);
+	--gray-900: rgba(17, 24, 39, 1);
+		
+	--grey-100: #f7fafc;
+	--grey-200: #edf2f7;
+	--grey-300: #e2e8f0;
+	--grey-400: #cbd5e0;
+	--grey-500: #a0aec0;
+	--grey-600: #718096;
+	--grey-700: #4a5568;
+	--grey-800: #2d3748;
+	--grey-900: #1a202c;
+	
+	--red-50: rgba(254, 242, 242, 1);
+	--red-100: rgba(254, 226, 226, 1);
+	--red-200: rgba(254, 202, 202, 1);
+	--red-300: rgba(252, 165, 165, 1);
+	--red-400: rgba(248, 113, 113, 1);
+	--red-500: rgba(239, 68, 68, 1);
+	--red-600: rgba(220, 38, 38, 1);
+	--red-700: rgba(185, 28, 28, 1);
+	--red-800: rgba(153, 27, 27, 1);
+	--red-900: rgba(127, 29, 29, 1);
+	
+	--yellow-50: rgba(255, 251, 235, 1);
+	--yellow-100: rgba(254, 243, 199, 1);
+	--yellow-200: rgba(253, 230, 138, 1);
+	--yellow-300: rgba(252, 211, 77, 1);
+	--yellow-400: rgba(251, 191, 36, 1);
+	--yellow-500: rgba(245, 158, 11, 1);
+	--yellow-600: rgba(217, 119, 6, 1);
+	--yellow-700: rgba(180, 83, 9, 1);
+	--yellow-800: rgba(146, 64, 14, 1);
+	--yellow-900: rgba(120, 53, 15, 1);
+	
+	--green-50: rgba(236, 253, 245, 1);
+	--green-100: rgba(209, 250, 229, 1);
+	--green-200: rgba(167, 243, 208, 1);
+	--green-300: rgba(110, 231, 183, 1);
+	--green-400: rgba(52, 211, 153, 1);
+	--green-500: rgba(16, 185, 129, 1);
+	--green-600: rgba(5, 150, 105, 1);
+	--green-700: rgba(4, 120, 87, 1);
+	--green-800: rgba(6, 95, 70, 1);
+	--green-900: rgba(6, 78, 59, 1);
+	
+	--blue-50: rgba(239, 246, 255, 1);
+	--blue-100: rgba(219, 234, 254, 1);
+	--blue-200: rgba(191, 219, 254, 1);
+	--blue-300: rgba(147, 197, 253, 1);
+	--blue-400: rgba(96, 165, 250, 1);
+	--blue-500: rgba(59, 130, 246, 1);
+	--blue-600: rgba(37, 99, 235, 1);
+	--blue-700: rgba(29, 78, 216, 1);
+	--blue-800: rgba(30, 64, 175, 1);
+	--blue-900: rgba(30, 58, 138, 1);
+	
+	--indigo-50: rgba(238, 242, 255, 1);
+	--indigo-100: rgba(224, 231, 255, 1);
+	--indigo-200: rgba(199, 210, 254, 1);
+	--indigo-300: rgba(165, 180, 252, 1);
+	--indigo-400: rgba(129, 140, 248, 1);
+	--indigo-500: rgba(99, 102, 241, 1);
+	--indigo-600: rgba(79, 70, 229, 1);
+	--indigo-700: rgba(67, 56, 202, 1);
+	--indigo-800: rgba(55, 48, 163, 1);
+	--indigo-900: rgba(49, 46, 129, 1);
+	
+	--purple-50: rgba(245, 243, 255, 1);
+	--purple-100: rgba(237, 233, 254, 1);
+	--purple-200: rgba(221, 214, 254, 1);
+	--purple-300: rgba(196, 181, 253, 1);
+	--purple-400: rgba(167, 139, 250, 1);
+	--purple-500: rgba(139, 92, 246, 1);
+	--purple-600: rgba(124, 58, 237, 1);
+	--purple-700: rgba(109, 40, 217, 1);
+	--purple-800: rgba(91, 33, 182, 1);
+	--purple-900: rgba(76, 29, 149, 1);
+	
+	--pink-50: rgba(253, 242, 248, 1);
+	--pink-100: rgba(252, 231, 243, 1);
+	--pink-200: rgba(251, 207, 232, 1);
+	--pink-300: rgba(249, 168, 212, 1);
+	--pink-400: rgba(244, 114, 182, 1);
+	--pink-500: rgba(236, 72, 153, 1);
+	--pink-600: rgba(219, 39, 119, 1);
+	--pink-700: rgba(190, 24, 93, 1);
+	--pink-800: rgba(157, 23, 77, 1);
+	--pink-900: rgba(131, 24, 67, 1);
+
+  --orange-100: #fffaf0;
+  --orange-200: #feebc8;
+  --orange-300: #fbd38d;
+  --orange-400: #f6ad55;
+  --orange-500: #ed8936;
+  --orange-600: #dd6b20;
+  --orange-700: #c05621;
+  --orange-800: #9c4221;
+  --orange-900: #7b341e;
+  
+  --teal-100: #e6fffa;
+  --teal-200: #b2f5ea;
+  --teal-300: #81e6d9;
+  --teal-400: #4fd1c5;
+  --teal-500: #38b2ac;
+  --teal-600: #319795;
+  --teal-700: #2c7a7b;
+  --teal-800: #285e61;
+  --teal-900: #234e52;
+}
+
+.hero, .navbar, .footer{
+	background-color: var(--purple-600) !important;
+	background-image: linear-gradient(141deg, rgba(91, 33, 182, 1) 0%, rgba(124, 58, 237, 1) 71%, rgba(167, 139, 250, 1) 100%) !important;
+  }
+
+  .footer{
+	height: 200px;
+  }
+
+  .tags .tag{
+	background-color: var(--purple-700);
+	color: var(--purple-50);
+  }
+
+  .tags span{
+	color: var(--purple-50);
+  }
+
+  .choose label{
+	font-weight: 400;
+  }
+
+  .buttons .button{
+	border-radius: 50%;
+	border-width: 2px;
+  }
+
+  .buttons .button a{
+	color: inherit;
+  }
+
+  .button.is-outlined.is-primary{
+	border: 2px solid var(--purple-600);
+	color: var(--purple-600);
+	font-weight: bold;
+  }
+
+  .header{
+	margin-bottom: 50px;
+  }
+
+  /* The button under hi, I am Henry */
+  .About-me button,.see-more button{
+	outline: none;
+	border: none;
+	transition: 0.3s ease;
+	cursor: pointer;
+	color: white;
+	text-transform: uppercase;
+	font-size: 0.9em;
+    font-weight: 700;
+    height: 3.5em;
+    letter-spacing: 0.075em;
+    line-height: 3.5em;
+	padding: 0px 2.20em;
+	border-radius: 10px;
+	background: linear-gradient(141deg, rgba(91, 33, 182, 1) 0%, rgba(124, 58, 237, 1) 71%, rgba(167, 139, 250, 1) 100%) !important;
+  }
+
+
+  /* The specs of each project */
+
+
+  .subtitle{
+	font-size: 18px;
+	padding-top: 20px;
+  }
+
+  .specs{
+	font-weight: bolder;
+	font-size: 18px;
+  }
+
+  .see-more{
+	text-align: center;
+	padding-top: 50px;
+  }
+
+  .see-more button:hover{
+	padding: 0px 3.00em;
+  }
+
+  .About-me button i{
+	padding-right: 5px;
+  }
+
+  /* Footer */
+
+  .last-footer p{
+	color: white;
+	position: relative;
+	top: 10px;
+  }
+
+  .gotopbtn{
+	position: fixed; 
+	bottom: 20px; 
+	right:20px; 
+	border-radius: 15px;
+  }
